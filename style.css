@@ -83,3 +83,21 @@ margin-left: 5%;
     	font-size: 22px;
     }
 }
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+  	 header h1 {
+    	width: 90%
+    }
+    .avatar {
+    	margin:15px auto;
+    	width:50%;
+    }
+    .name {
+    	margin:5% 28%;
+    	display: block;
+    	font-size: 22px;
+    }
+}
