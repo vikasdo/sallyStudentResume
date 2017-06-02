@@ -1,0 +1,84 @@
+body {
+	background: #b89c76;
+	color:#696969;
+}
+
+h1 {
+	text-align: center;
+	border: 1px solid;
+	border-radius: 5px;
+	width:40%;
+	margin:0 auto;	
+	background-color:#d9a562;
+	box-shadow: 7px 7px 3px #6b676b;
+}
+
+header {
+	margin-top: 6%;
+
+}
+
+main {
+	border: 1px solid #696969;
+	border-radius: 15px;
+	width: 80%;
+	height: 95%;
+	margin:3% auto ;
+	box-shadow: 5px 5px 2px #6b676b;
+}
+
+img {
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	display: block;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    box-shadow: 2px 2px 9px #6b676b;
+}
+
+a {
+	color: #009688;
+}
+
+a:hover{
+font-size:1.8em;
+color:white;
+}
+.avatar {
+	margin: 2% auto;
+	width:10%;	
+}
+
+.name {
+	margin:25px 45%;
+	display: block;
+}
+
+.contact {
+margin-left: 5%;
+}
+
+.education {
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+.work {
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+   header h1 {
+    	width: 90%
+    }
+    .avatar {
+    	margin:15px auto;
+    	width:50%;
+    }
+    .name {
+    	margin:10px 26%;
+    	display: block;
+    }
+}
