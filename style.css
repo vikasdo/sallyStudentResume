@@ -28,6 +28,7 @@ main {
 }
 
 img {
+    margin: 0 auto;
 	height: 200px;
 	width: 200px;
 	border-radius: 100px;
@@ -77,10 +78,18 @@ margin-left: 5%;
     	margin:15px auto;
     	width:50%;
     }
+    
     .name {
     	margin:5% 28%;
     	display: block;
-    	font-size: 22px;
+    	font-size: 18px;
+        text-align: center;
+    }
+    .avatar img {
+        margin: 0 auto;
+        height: 100px;
+        width: 100px;
+
     }
 }
 
